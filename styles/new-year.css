@@ -1,4 +1,138 @@
-*{
-    margin: 0
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* heading styles */
+.header {
+  max-width: 1600px;
+  height: 809px;
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+}
+.banner {
+  text-align: right;
+  padding-top: 200px;
+  padding-right: 250px;
+  padding-left: 769px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #151414;
+  text-align: right;
+  margin: 0;
+}
+.banner-description {
+  margin-top: 24px;
+  font-size: 16px;
+  text-align: right;
+  color: #444343;
+}
+.btn {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 21px 26px;
+  background-color: #f15b22;
+  margin-top: 32px;
+  border-radius: 5px;
+  border: 0;
+}
+/* main section start */
+main {
+  align-items: center;
+  max-width: 1600px;
+}
+/* image and failurs sections start */
+.failurs {
+  display: flex;
+  gap: 93px;
+}
+.img {
+  margin-top: 126px;
+  margin-left: 208px;
+}
+.content {
+  margin-top: 370px;
+  margin-right: 322px;
+}
+.img-heading {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+}
+.img-description {
+  color: #444343;
+  font-size: 16px;
+  margin-top: 16px;
+}
+ul {
+  margin: 0;
+  /* text-align: justify; */
+  list-style: none;
+}
+li {
+  margin-bottom: 8px;
+}
+ul li:before {
+  content: "✓";
+}
+/* plans section */
+
+.plan-heading {
+  margin-top: 135px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.plan-section {
+  display: flex;
+  gap: 86px;
+  margin-top: 70px;
+  margin-left: 230px;
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.icon-heading {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  text-align: center;
+  margin-top: 22px;
+}
+.plan-section p {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #737272;
+  margin-top: 14px;
+}
+/* mindset section start */
+.mindset {
+  background-image: url(../images/watch.png), url(/images/gradient2.png);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 130px 230px;
+  width: 1140px;
+  height: 300px;
+}
+.mindset-heading{
+  color: #ffffff;
+  text-align: left;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 60px 617px 147px 64px;
+
+}
+.btn-primary{
+    color: #F15B22;
+    font-weight: 600;
+font-size: 20px;
+text-align: center;
+margin-top: 40px;
+padding: 21px 36px;
+border-radius: 5px;
+border: 0;
 }
