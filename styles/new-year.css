@@ -17,7 +17,7 @@
 }
 .banner-title {
   font-weight: 700;
-  font-size: 65px;
+  font-size: 50px;
   color: #151414;
   text-align: right;
   margin: 0;
@@ -47,11 +47,11 @@ main {
 /* image and failurs sections start */
 .failurs {
   display: flex;
-  gap: 93px;
+  gap: 35px;
 }
 .img {
   margin-top: 126px;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 .content {
   margin-top: 370px;
@@ -60,20 +60,24 @@ main {
 .img-heading {
   color: #151414;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 40px;
 }
 .img-description {
   color: #444343;
   font-size: 16px;
   margin-top: 16px;
-  margin-left: 40px;
+  margin-left: 43px;
+  text-align: justify;
 }
 ul {
-  margin-top: 10px;
+  margin: 10px;
   list-style: none;
-  font-size: 18px;
+  font-size: 15px;
   color: #444343;
+}
+li{
+  padding: 5px;
 }
 ul li::before {
   content: "✓";
@@ -92,7 +96,7 @@ ul li::before {
   display: flex;
   gap: 86px;
   margin-top: 70px;
-  margin-left: 230px;
+  margin-left: 150px;
   margin-bottom: 130px;
   text-align: center;
 }
@@ -116,7 +120,7 @@ ul li::before {
   background-image: url(../images/watch.png), url(/images/gradient1.png);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  margin: 130px 230px;
+  margin: 130px 130px;
   width: 1140px;
   height: 300px;
 }
