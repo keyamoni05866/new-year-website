@@ -38,6 +38,7 @@
   border-radius: 5px;
   border: 0;
 }
+
 /* main section start */
 main {
   align-items: center;
@@ -50,7 +51,7 @@ main {
 }
 .img {
   margin-top: 126px;
-  margin-left: 208px;
+  margin-left: 150px;
 }
 .content {
   margin-top: 370px;
@@ -60,23 +61,24 @@ main {
   color: #151414;
   font-weight: 700;
   font-size: 40px;
+  margin-left: 40px;
 }
 .img-description {
   color: #444343;
   font-size: 16px;
   margin-top: 16px;
+  margin-left: 40px;
 }
 ul {
-  margin: 0;
-  /* text-align: justify; */
+  margin-top: 10px;
   list-style: none;
+  font-size: 18px;
+  color: #444343;
 }
-li {
-  margin-bottom: 8px;
-}
-ul li:before {
+ul li::before {
   content: "✓";
 }
+
 /* plans section */
 
 .plan-heading {
@@ -111,28 +113,134 @@ ul li:before {
 }
 /* mindset section start */
 .mindset {
-  background-image: url(../images/watch.png), url(/images/gradient2.png);
+  background-image: url(../images/watch.png), url(/images/gradient1.png);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   margin: 130px 230px;
   width: 1140px;
   height: 300px;
 }
-.mindset-heading{
+.mindset-heading {
   color: #ffffff;
   text-align: left;
   font-weight: 700;
   font-size: 30px;
   padding: 60px 617px 147px 64px;
-
 }
-.btn-primary{
-    color: #F15B22;
-    font-weight: 600;
-font-size: 20px;
-text-align: center;
-margin-top: 40px;
-padding: 21px 36px;
-border-radius: 5px;
-border: 0;
+.btn-primary {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 21px 36px;
+  border-radius: 5px;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: #f15b22;
+  color: aqua;
+}
+/* extra section , new year section */
+.new-year-section {
+  height: 809px;
+  background-image: url(../images/banner/new-year-bg.jpg),
+    url(../images/gradient1.png);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-year-heading {
+  font-style: italic;
+
+  text-transform: uppercase;
+  text-shadow: #151414;
+  margin-bottom: 80px;
+  color: #444343;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.new-year-description {
+  color: #d1eaff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 150px 617px 147px 64px;
+  font-style: italic;
+}
+.new-year-section .btn-primary {
+  background-color: #6570c8;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  font-style: italic;
+}
+.new-year-section .btn-primary:hover {
+  background-color: #f15b22;
+  color: aqua;
+}
+/* footer section */
+.footer {
+  margin-top: 10px;
+  display: flex;
+  max-width: 1600px;
+  height: 500px;
+  background: #151414;
+  gap: 331px;
+}
+.future {
+  margin: 130px 0px 130px 180px;
+  text-align: left;
+}
+.future-heading {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.future-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.email {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.phone {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.future-img {
+  display: flex;
+}
+.twitter {
+  margin-left: 17px;
+}
+.utube {
+  margin-left: 17px;
+}
+.subscribe {
+  margin-top: 130px;
+  margin-right: 330px;
+}
+.subscribe-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+input {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 18px;
+}
+.footer .btn-primary:hover {
+  background-color: #f15b22;
+  color: aqua;
 }
